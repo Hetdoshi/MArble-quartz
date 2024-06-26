@@ -1,0 +1,144 @@
+/* Reset and base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff4500; /* Orange color */
+}
+
+/* Main content area */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Product card */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  width: 350px; /* Increase the width as desired */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: 375px;
+  border-radius: 5px;
+}
+
+.product-card h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.product-card p {
+  color: #666;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: #eadddd;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s, color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.pagination .active {
+  background-color: #333;
+  color: #fff;
+}
+.a1{
+  color: rgb(0, 0, 0);
+  background-color: bisque;
+  font-size: 30px;
+  font-family:Georgia, serif;
+  margin-top: 0.7%;
+  text-underline-position: below;
+
+}
+.main {
+  background-image: url('/public/stone-wall-3558499_640.jpg');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image horizontally and vertically */
+   background-attachment: fixed; /*Fixes the background image while scrolling */
+}
+.q {
+  background-image: url('/public/quartz.jpg');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image horizontally and vertically */
+   background-attachment: fixed; /*Fixes the background image while scrolling */
+}
